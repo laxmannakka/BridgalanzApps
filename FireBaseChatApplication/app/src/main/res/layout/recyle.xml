@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:background="#C0C0C0"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/logoteam"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/images"
+            />
+
+
+
+        <TableLayout
+            android:id="@+id/tablaelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoteam"
+            android:layout_marginBottom="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.5"
+                    android:text="Team Name    :" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1.5"
+                    android:id="@+id/setteamname" />
+            </TableRow>
+
+            <TableRow>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Team Ownername  :" />
+
+                <TextView
+                    android:id="@+id/setownername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                     />
+
+            </TableRow>
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_height="3dp"
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                />
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

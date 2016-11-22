@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NavaigationDrawer</string>
+    <string name="closedrawer">closedrawer</string>
+    <string name="opendrawer">Opendrawer</string>
+    <string-array name="planets">
+        <item>earth</item>
+        <item>shani</item>
+        <item>plunket </item>
+        <item>shukrudu</item>
+
+    </string-array>
+</resources>

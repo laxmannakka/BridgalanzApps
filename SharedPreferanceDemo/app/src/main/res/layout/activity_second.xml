@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="com.bridgelabz.sharedpreferancedemo.SecondActivity">
+
+    <TextView
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/text"
+        android:text="Entered Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:text="username"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPass"
+        android:text="password"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <!--<EditText
+        android:id="@+id/Edit1"
+        android:layout_marginTop="20dp"
+        android:hint="Username is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_marginTop="20dp"
+        android:hint="password is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/back"
+        android:text="back"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
